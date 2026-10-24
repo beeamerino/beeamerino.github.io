@@ -41,7 +41,7 @@ Estudio cómo se diversifican las plantas en los ecosistemas áridos de América
 ## Qué hago
 
 ::: tags
-[Macroevolución y biogeografía]{.tag} [Filogenética y datación molecular]{.tag} [Curación de datos públicos (GenBank, GBIF, Darwin Core)]{.tag} [Conciliación taxonómica]{.tag} [Código de barras de ADN]{.tag} [Genética y genómica de poblaciones]{.tag} [Modelamiento de distribución de especies]{.tag} [SIG y teledetección]{.tag} [Desarrollo en R (librerías, Shiny, Quarto)]{.tag} [Evaluación ambiental y restauración]{.tag} [Docencia y divulgación científica]{.tag}
+[Macroevolución y biogeografía]{.tag} [Filogenética y datación molecular]{.tag} D[atos de biodiversidad (GenBank, GBIF, Darwin Core)]{.tag} [Curado taxonómic]{.tag}o [Código de barras de ADN]{.tag} [Genética y genómica de poblaciones]{.tag} [Modelamiento de distribución de especies]{.tag} [SIG y teledetección]{.tag} [Desarrollo en R (librerías, Shiny, Quarto)]{.tag} [Evaluación ambiental y restauración]{.tag} [Docencia y divulgación científica]{.tag}
 :::
 
 ## Trabajo destacado
@@ -60,7 +60,7 @@ Librería de R para filogenética multilocus reproducible a partir de GenBank: m
 :::
 
 ::: pcard
-[Artículo de portada · Annals of Botany 2024]{.kicker}
+[Annals of Botany 2024]{.kicker}
 
 #### Cambio climático y especiación
 

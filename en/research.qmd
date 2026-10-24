@@ -13,6 +13,8 @@ description: "Research in plant systematics, speciation, biogeography and conser
 
 ### 1. PhyloCactus: from GenBank to dated phylogenies
 
+![](../assets/img/phylocactus-logo.png){.section-logo fig-alt="PhyloCactus logo"}
+
 An R library that automates sequence mining from GenBank, taxonomic reconciliation against the Caryophyllales.org species list, the assembly of multilocus supermatrices and of reference sequence libraries for DNA barcoding, and the inference and dating of Cactaceae phylogenies. It is the phylogenetic basis of the whole thesis.
 
 The library works and is documented; the manuscript is in preparation.\

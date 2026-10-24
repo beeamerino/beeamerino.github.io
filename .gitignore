@@ -1,0 +1,14 @@
+/_site/
+/_site_en/
+/.quarto/
+/_publications.md
+.DS_Store
+.Rhistory
+
+**/*.quarto_ipynb
+/fotos_originales/
+/fotos_procesadas/
+/_archive/
+/PLAN_*.md
+/research_files/
+/data/apa.csl

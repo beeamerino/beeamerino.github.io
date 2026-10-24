@@ -1,0 +1,2 @@
+# DOIs that ORCID lists but that should NOT appear on the website (one per line),
+# e.g. preprints of papers already published, datasets or conference abstracts.

@@ -1,0 +1,41 @@
+# Publishes the bilingual site (Spanish at /, English at /en/) to the gh-pages branch.
+#  - on every push to main
+#  - every day at 16:30 UTC (13:30 Chile): pulls new papers from ORCID and lifts embargoes
+#  - manually from the Actions tab ("Run workflow")
+# One-time setup: Settings → Pages → Source: "Deploy from a branch" → gh-pages / (root).
+name: Publish site
+on:
+  push:
+    branches: main
+  schedule:
+    - cron: "30 16 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Sync new publications from ORCID
+        run: python3 scripts/sync_orcid.py
+      - name: Rebuild publication lists
+        run: python3 scripts/build_publications.py
+      - name: Commit updated bibliography
+        run: |
+          if ! git diff --quiet -- data/publications.bib _publications_es.md _publications_en.md; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data/publications.bib _publications_es.md _publications_en.md
+            git commit -m "Sync publications from ORCID"
+            git push
+          fi
+      - uses: quarto-dev/quarto-actions/setup@v2
+      - name: Render Spanish and English
+        run: bash scripts/build_site.sh
+      - uses: quarto-dev/quarto-actions/publish@v2
+        with:
+          target: gh-pages
+          render: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

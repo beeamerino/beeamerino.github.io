@@ -1,0 +1,24 @@
+project:
+  output-dir: _site_en
+  render:
+    - "en/*.qmd"
+
+lang: en-US
+
+website:
+  title: "Beatriz M. Meriño"
+  description: "Plant systematics and biodiversity data science: phylogenetics, species distribution modeling and reproducible R tools."
+  navbar:
+    left:
+      - {href: en/index.qmd, text: Home}
+      - {href: en/research.qmd, text: Research}
+      - {href: en/publications.qmd, text: Publications}
+      - {href: en/software.qmd, text: Software}
+      - {href: en/gallery.qmd, text: Gallery}
+    right:
+      - {icon: github, href: "https://github.com/beeamerino", aria-label: GitHub}
+      - {text: "<b>ES</b> · EN", href: "index.html"}
+  page-footer:
+    left: |
+      <span class="cactus-emoji footer-cactus" aria-hidden="true">&#x1F335;</span> © 2026 Beatriz M. Meriño · Concepción, Chile
+    right: "Built with [Quarto](https://quarto.org) · hosted on GitHub Pages"

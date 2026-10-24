@@ -1,0 +1,18 @@
+<script>
+/* ES/EN switch: points the navbar language link to the same page in the other language.
+   Spanish pages live at the root (/research.html), English ones under /en/ (/en/research.html). */
+(function () {
+  var link = Array.prototype.find.call(document.querySelectorAll("a.nav-link"), function (a) {
+    return /^\s*ES\s*·\s*EN\s*$/.test(a.textContent);
+  });
+  if (!link) return;
+  link.setAttribute("aria-label", /\/en\//.test(window.location.pathname) ? "Leer en español" : "Read in English");
+  link.classList.add("lang-toggle");
+  var path = window.location.pathname;
+  var file = path.split("/").pop() || "index.html";
+  if (file === "404.html" || !/\.html$/.test(file)) file = "index.html";
+  var inEnglish = /\/en\/[^\/]*$/.test(path);
+  link.setAttribute("href", inEnglish ? "/" + file : "/en/" + file);
+  link.setAttribute("hreflang", inEnglish ? "es" : "en");
+})();
+</script>

@@ -1,0 +1,126 @@
+/*-- scss:defaults --*/
+// Neutral ink palette; green is only a small accent.
+$primary: #2c3e50 !default;          // ink
+$accent: #5b8a6f !default;           // muted sage, used sparingly
+$navbar-bg: #ffffff !default;
+$navbar-fg: #2c3e50 !default;
+$navbar-hl: #000000 !default;
+$link-color: #2a6496 !default;      // muted blue links
+$font-family-sans-serif: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+$font-family-monospace: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+$headings-font-weight: 650;
+$link-decoration: none;
+
+/*-- scss:rules --*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;650;700&family=JetBrains+Mono:wght@400&display=swap');
+
+/* ---------- hero ---------- */
+.hero { display: flex; align-items: center; gap: 2rem; padding: .5rem 0 .5rem; }
+#title-block-header:empty { display: none; }
+.hero-text { flex: 1 1 auto; min-width: 0; }
+.hero-name { font-size: 2.5rem; font-weight: 700; line-height: 1.1; margin: 0 0 .4rem; letter-spacing: -.01em; }
+.hero-tagline { font-size: 1.1rem; opacity: .8; margin-bottom: 1rem; }
+.hero-location { font-size: .95rem; opacity: .8; margin-top: .75rem; }
+.hero-side { flex: 0 0 auto; text-align: center; }
+
+/* Profile photo: any size/aspect works. The browser scales it down (no pixelation
+   if the source is ≥ 600 px) and crops it to a circle without distortion. */
+.avatar { width: 380px; height: auto; aspect-ratio: 16 / 9; border-radius: .8rem; object-fit: cover;
+  object-position: 55% 60%;            /* wide field photo: the arid landscape is the point */
+  border: 1px solid rgba(128,128,128,.35); display: block; }
+
+/* ---------- ASCII ornaments ---------- */
+.ascii { font-family: $font-family-monospace; white-space: pre; line-height: 1.15;
+  font-size: .78rem; color: $accent; opacity: .55; margin: 0; user-select: none; }
+.hero-side .ascii { font-size: .85rem; }
+.divider { text-align: center; font-family: $font-family-monospace; color: inherit;
+  opacity: .5; white-space: pre; margin: 1.8rem 0 .4rem; user-select: none; }
+.divider p { margin: 0; }
+
+/* PhyloCactus cactus (U+1F335). Written as the HTML entity &#x1F335; (same idea as
+   "\U0001F335" in PhyloCactus' R code) so the file encoding can never break it,
+   and drawn with the system emoji font so it renders the same on every OS. */
+.cactus-emoji { font-family: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", sans-serif;
+  font-style: normal; font-size: 1.05em; opacity: .85; }
+.divider .cactus-emoji { font-size: 1.15rem; vertical-align: -.1em; opacity: 1; }
+.footer-cactus { margin-right: .35rem; }
+
+/* ---------- buttons, tags, cards ---------- */
+.btn-row, .btn-row > p { display: flex; flex-wrap: wrap; gap: .45rem; margin: 0; }
+.btn-row .btn { border-radius: .45rem; }
+.tags, .tags > p { display: flex; flex-wrap: wrap; gap: .4rem; margin: 0; }
+.tags span { padding: .2rem .7rem; border-radius: 999px; border: 1px solid rgba(128,128,128,.4);
+  font-size: .85rem; white-space: nowrap; }
+.card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 1rem; margin: 1rem 0 1.5rem; }
+.pcard { border: 1px solid rgba(128,128,128,.28); border-radius: .7rem; padding: 1rem 1.1rem;
+  display: flex; flex-direction: column; transition: border-color .15s, transform .15s; }
+.pcard:hover { border-color: rgba($primary, .7); transform: translateY(-2px); }
+.pcard h4 { margin: 0 0 .4rem; font-size: 1.05rem; }
+.pcard p { font-size: .92rem; margin-bottom: .5rem; }
+.pcard p:last-child { margin-top: auto; margin-bottom: 0; }
+.pcard .kicker { font-size: .72rem; text-transform: uppercase; letter-spacing: .08em; opacity: .65; margin-bottom: .25rem; }
+
+/* ---------- timeline ---------- */
+.timeline-item { border-left: 3px solid rgba(128,128,128,.35); padding: .1rem 0 .1rem 1rem; margin: 0 0 1.1rem; }
+.timeline-item h3 { font-size: 1.1rem; margin: 0 0 .15rem; border: 0; }
+.timeline-item p { margin-bottom: .3rem; }
+.timeline-item ul { margin-bottom: 0; }
+.when { font-size: .88rem; opacity: .7; }
+
+/* ---------- publications ---------- */
+.pub { padding: .55rem 0 .55rem .9rem; border-left: 2px solid rgba(128,128,128,.25); margin-bottom: .6rem; }
+.pub:hover { border-left-color: $primary; }
+.pub p { margin: 0; }
+h3.pub-year { font-size: 1rem; opacity: .7; margin-top: 1.4rem; font-family: $font-family-monospace; }
+.pub-count { font-size: .9rem; opacity: .6; font-weight: 400; }
+.pub-link { display: inline-block; font-size: .78rem; padding: .02rem .5rem; margin-left: .2rem;
+  border: 1px solid rgba($primary, .5); border-radius: .3rem; }
+.pub-status { display: inline-block; font-size: .78rem; padding: .02rem .5rem; border-radius: .3rem;
+  background: rgba($primary, .12); }
+.pub-star { color: #c99a2e; }
+
+/* ---------- misc ---------- */
+h2 { margin-top: 2rem; }
+.lead-text { font-size: 1.05rem; }
+.not-found { text-align: center; padding: 3rem 0; }
+.not-found .ascii { font-size: .95rem; opacity: .7; display: inline-block; text-align: left; }
+
+@media (max-width: 768px) {
+  .hero { flex-direction: column-reverse; align-items: flex-start; gap: 1rem; }
+  .hero-name { font-size: 2rem; }
+  .hero-side .ascii { display: none; }
+  .avatar { width: 100%; }
+}
+
+.quarto-title .description, #title-block-header .description { opacity: .72; margin-top: .35rem; }
+.software-table td:first-child { width: 20%; font-weight: 600; }
+.software-table td:nth-child(2) { width: 42%; }
+.software-table td { font-size: .92rem; vertical-align: top; }
+
+/* ES/EN switch in the navbar */
+.navbar .nav-link .menu-text { white-space: nowrap; }
+.lang-toggle .menu-text { white-space: nowrap; font-size: .85rem; letter-spacing: .04em; padding: .15rem .55rem;
+  border: 1px solid currentColor; border-radius: 999px; font-weight: 400; }
+.lang-toggle .menu-text b { font-weight: 700; }
+
+/* light navbar: thin separator instead of a colored bar */
+.navbar { border-bottom: 1px solid rgba(128,128,128,.2); }
+
+/* ---------- gallery ---------- */
+.gallery-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1.2rem; margin-top: 1.2rem; }
+.g-item { margin: 0; }
+.g-item img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: .5rem; display: block; }
+.g-item figcaption { font-size: .88rem; margin-top: .45rem; line-height: 1.35; }
+.g-meta { display: block; font-size: .78rem; opacity: .65; margin-top: .15rem; }
+.g-comment { display: block; font-size: .82rem; font-style: italic; margin-top: .2rem; }
+.g-frame { position: relative; overflow: hidden; border-radius: .5rem; line-height: 0; }
+.g-game .g-frame img { aspect-ratio: 4 / 3; }   /* the game photo is pre-cropped to 4:3, so the circle stays exact */
+.g-answer { position: absolute; aspect-ratio: 1; transform: translate(-50%, -50%);
+  border: 3px solid #f5c400; border-radius: 50%; box-shadow: 0 0 0 9999px rgba(0,0,0,.35); pointer-events: none; }
+.g-reveal { margin-top: .5rem; }
+
+/* wide field photo above the name: the arid landscape is the protagonist */
+.hero-banner { margin: .5rem 0 1.2rem; }
+.hero-banner img { width: 100%; aspect-ratio: 21 / 9; object-fit: cover; object-position: 50% 62%;
+  border-radius: .8rem; display: block; }
+@media (max-width: 768px) { .hero-banner img { aspect-ratio: 16 / 10; } }

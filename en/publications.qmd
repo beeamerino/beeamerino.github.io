@@ -1,0 +1,8 @@
+---
+title: "Publications"
+description: "Peer-reviewed articles, manuscripts in preparation and research software."
+---
+
+[My name is in **bold**. Citation metrics are on my [Google Scholar](https://scholar.google.cl/citations?user=RLAXrAcAAAAJ) profile; [ORCID](https://orcid.org/0000-0002-9518-2331) has the full list.]{.lead-text}
+
+{{< include ../_publications_en.md >}}

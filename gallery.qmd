@@ -1,0 +1,9 @@
+---
+title: "Galería"
+description: "Paisajes áridos, cactus y trabajo de terreno."
+lightbox: true
+---
+
+Algunas fotos de mi travesía investigando los ecosistemas áridos de América. Las ubicaciones de las especies amenazadas se indican solo a nivel de región.
+
+{{< include _gallery_es.md >}}

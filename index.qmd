@@ -1,0 +1,109 @@
+---
+pagetitle: "Beatriz M. Meriño · Sistemática vegetal y datos de biodiversidad"
+description: "Bióloga, Magíster en Ciencias mención Botánica y Dr(c) en Sistemática y Biodiversidad (Universidad de Concepción, Chile). Filogenética de plantas, modelamiento de distribución de especies, SIG y análisis de datos de biodiversidad."
+---
+
+```{=html}
+<figure class="hero-banner"><img src="assets/img/profile.jpg" alt="Beatriz M. Meriño en terreno, frente a un paisaje de cerros áridos" onerror="this.parentElement.remove(); document.getElementById('hero-ascii').hidden = false;"></figure>
+<div class="hero">
+  <div class="hero-text">
+    <p class="hero-name" role="heading" aria-level="1">Beatriz M. Meriño</p>
+    <p class="hero-tagline">Bióloga · Magíster en Botánica · Dr(c) en Sistemática y Biodiversidad</p>
+```
+
+Estudio cómo se diversifican las plantas en los ecosistemas áridos de América y por qué algunas regiones concentran mucha más riqueza de especies que otras, con las cactáceas como principal sistema de estudio. Para responderlo construyo filogenias datadas a partir de datos públicos y desarrollo herramientas reproducibles en R que convierten registros de GenBank y de biodiversidad en matrices de secuencias curadas. Combino filogenética, biogeografía histórica, modelamiento de distribución de especies y SIG. Desde 2017 trabajo también en evaluación ambiental, restauración ecológica y docencia universitaria en Chile.
+
+::: btn-row
+[<i class="bi bi-download"></i> CV (español)](assets/cv/CV_Beatriz_Merino_ES.pdf){.btn .btn-primary} [<i class="bi bi-download"></i> CV (English)](assets/cv/CV_Beatriz_Merino_EN.pdf){.btn .btn-primary} [<i class="bi bi-github"></i> GitHub](https://github.com/beeamerino){.btn .btn-outline-primary} [ORCID](https://orcid.org/0000-0002-9518-2331){.btn .btn-outline-primary} [<i class="bi bi-mortarboard"></i> Google Scholar](https://scholar.google.cl/citations?user=RLAXrAcAAAAJ){.btn .btn-outline-primary} [<i class="bi bi-envelope"></i> Correo](mailto:beeatriz.merino@gmail.com){.btn .btn-outline-primary}
+:::
+
+```{=html}
+    <p class="hero-location"><i class="bi bi-geo-alt"></i> Concepción, Chile · disponible para trabajo remoto, híbrido e internacional</p>
+  </div>
+  <div class="hero-side">
+<pre class="ascii" id="hero-ascii" aria-hidden="true" hidden>
+          .--.
+          |  |
+    .--.  |  |
+    |  |  |  |  .--.
+    |  |  |  |  |  |
+    |  '--'  |  |  |
+    '-----.  '--'  |
+          |  .-----'
+          |  |
+          |  |
+   ~~~~~~~|  |~~~~~~~
+</pre>
+  </div>
+</div>
+```
+
+## Qué hago
+
+::: tags
+[Macroevolución y biogeografía]{.tag} [Filogenética y datación molecular]{.tag} [Curación de datos públicos (GenBank, GBIF, Darwin Core)]{.tag} [Conciliación taxonómica]{.tag} [Código de barras de ADN]{.tag} [Genética y genómica de poblaciones]{.tag} [Modelamiento de distribución de especies]{.tag} [SIG y teledetección]{.tag} [Desarrollo en R (librerías, Shiny, Quarto)]{.tag} [Evaluación ambiental y restauración]{.tag} [Docencia y divulgación científica]{.tag}
+:::
+
+## Trabajo destacado
+
+:::::: card-grid
+::: pcard
+[Software]{.kicker}
+
+#### PhyloCactus
+
+Librería de R para filogenética multilocus reproducible a partir de GenBank: minado de secuencias, curación taxonómica, árboles datados y código de barras de ADN.
+
+[Código](https://github.com/beeamerino/PhyloCactus) · [Documentación](https://beeamerino.github.io/PhyloCactus/)
+:::
+
+::: pcard
+[Artículo · Annals of Botany 2024]{.kicker}
+
+#### Clima del Pleistoceno y especiación
+
+Cómo los ciclos glaciales e interglaciales moldearon la expansión y contracción de rango, y con ellas la especiación de *Eriosyce* secc. *Neoporteria* en Chile central.
+
+[Leer el artículo](https://doi.org/10.1093/aob/mcae087)
+:::
+
+::: pcard
+[Tesis doctoral · en curso]{.kicker}
+
+#### Biogeografía y riqueza de especies
+
+Por qué algunas regiones de América concentran más especies: edad de colonización, dispersión y diversificación reconstruidas sobre una filogenia datada.
+
+[Más investigación →](research.qmd)
+:::
+::::::
+
+::: {.divider aria-hidden="true"}
+· · ·
+:::
+
+## Formación
+
+::: timeline-item
+### Doctorado (c) en Sistemática y Biodiversidad
+
+Universidad de Concepción, Chile · [en curso]{.when}
+
+Tesis: *¿Qué factores estructuran la heterogeneidad de riqueza de cactáceas en los biomas de América?* Pasantía de investigación en el Desert Botanical Garden y Arizona State University (Phoenix, EE. UU., 2024).
+:::
+
+::: timeline-item
+### Magíster en Ciencias mención Botánica
+
+Universidad de Concepción, Chile · [2021]{.when}
+
+Tesis: *Oscilaciones climáticas y el conservatismo de nicho climático promueven la especiación alopátrica en cactus globosos polinizados por picaflores* (nota 7,0 en escala de 1 a 7, Sobresaliente). [Ver tesis](https://repositorio.udec.cl/items/ba752332-f741-4092-bef8-04610ea96fcd)
+:::
+
+::: timeline-item
+### Bióloga (título profesional) y Licenciada en Biología
+
+Universidad de Concepción, Chile · [2017]{.when}
+
+Tesis de título sobre la genética de la conservación del lúcumo chileno (*Pouteria splendens*).
+:::

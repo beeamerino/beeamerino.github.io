@@ -1,0 +1,9 @@
+---
+title: "Gallery"
+description: "Arid landscapes, cacti and fieldwork."
+lightbox: true
+---
+
+A few photos from my research travels through the arid ecosystems of the Americas. Locations of threatened species are given only at the regional level.
+
+{{< include ../_gallery_en.md >}}

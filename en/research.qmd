@@ -1,0 +1,43 @@
+---
+title: "Research"
+description: "Research in plant systematics, speciation, biogeography and conservation in arid ecosystems."
+---
+
+[I study how plant lineages diversify and persist in arid and Mediterranean-type ecosystems, and how that knowledge can guide conservation.]{.lead-text}
+
+## Doctoral thesis (in progress)
+
+*Ph.D. in Systematics and Biodiversity · Universidad de Concepción · Advisor: Dr. Pablo C. Guerrero*
+
+"What factors structure the heterogeneity of cactus richness across the biomes of the Americas?" The thesis combines a dated phylogeny of the family with biogeographic reconstructions to understand why some regions hold far more species than others. It has two lines of work, both in development:
+
+### 1. PhyloCactus: from GenBank to dated phylogenies
+
+An R library that automates sequence mining from GenBank, taxonomic reconciliation against the Caryophyllales.org species list, the assembly of multilocus supermatrices and of reference sequence libraries for DNA barcoding, and the inference and dating of Cactaceae phylogenies. It is the phylogenetic basis of the whole thesis.
+
+The library works and is documented; the manuscript is in preparation.\
+[Code](https://github.com/beeamerino/PhyloCactus) · [Documentation](https://beeamerino.github.io/PhyloCactus/)
+
+### 2. Historical biogeography and regional cactus richness
+
+It reconstructs the biogeographic history of the family with BioGeoBEARS and biogeographic stochastic mapping to estimate, for each region, colonization age, dispersal rates and diversification. It then tests how much of regional richness each component explains under three ways of dividing climatic space (biomes, Köppen-Geiger and multivariate climatic clusters), using generalized linear mixed models (GLMM) and machine-learning (ML) validation.
+
+The code works and there are preliminary results; the final analysis depends on the dated phylogeny from PhyloCactus.
+
+## Master's thesis
+
+*Master of Science in Botany · Universidad de Concepción · grade 7.0 on a 1–7 scale, Sobresaliente (2021)*
+
+"Oscilaciones climáticas y el conservatismo de nicho climático promueven la especiación alopátrica en cactus globosos polinizados por picaflores" [Climatic oscillations and climatic niche conservatism promote allopatric speciation in hummingbird-pollinated globose cacti]. The thesis studies how Pleistocene climatic oscillations drove cycles of range expansion and contraction, and with them speciation, in *Eriosyce* sect. *Neoporteria*. The same lineage makes it possible to examine how cryptic diversity is uncovered and how species are delimited with molecular data.
+
+I used phylogenetics, phylogeography, species distribution modeling under past climates and species delimitation.
+
+Outputs: [full thesis (UdeC repository, in Spanish)](https://repositorio.udec.cl/items/ba752332-f741-4092-bef8-04610ea96fcd) · [Meriño *et al.* 2024, *Annals of Botany*](https://doi.org/10.1093/aob/mcae087)
+
+## Undergraduate thesis: the Chilean lúcumo (*Pouteria splendens*)
+
+*Biologist (professional degree) and Bachelor of Science in Biology · Universidad de Concepción (2017)*
+
+I studied the conservation genetics of an endangered tree endemic to the coast of central Chile, of which, according to Carvallo *et al.* (2019), only two natural populations remain. Rocky outcrops are refuges that conserve its genetic diversity and allow its regeneration.
+
+Outputs: [Carvallo *et al.* 2019, *Biodiversity and Conservation*](https://doi.org/10.1007/s10531-019-01797-6) · oral presentation at the XII Latin American Botanical Congress (Quito, 2018) · science column in *El Mercurio* (2022).

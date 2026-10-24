@@ -49,9 +49,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-4a93137e1f464f6b571849bbdd2e7ac0.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-7571b93e1a4d3d0ca777ac4f8d01a718.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-a8b4e750265315221537ec983446a1ba.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-7571b93e1a4d3d0ca777ac4f8d01a718.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-c9aae45183230ffc22018ab2ec51c479.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-2d28e03dcaeaf483d12f8a0d01c0426e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-c9aae45183230ffc22018ab2ec51c479.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -365,7 +365,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="phylocactus" class="level4">
 <h4 class="anchored" data-anchor-id="phylocactus">PhyloCactus</h4>
 <p><img src="assets/img/phylocactus-logo.png" class="card-logo img-fluid" alt="Logo de PhyloCactus"></p>
-<p>Un flujo de trabajo de 13 módulos para la filogenética de Cactaceae: minado de GenBank, alineamiento, evaluación de saturación, selección de modelos, inferencia de máxima verosimilitud con restricciones en RAxML-NG, datación con treePL, integración con la Lista Roja de la UICN y validación frente a árboles publicados. Incluye un módulo de código de barras de ADN para identificar muestras de cactus.</p>
+<p>Un flujo de trabajo de 13 módulos para la filogenética de Cactaceae: minado de GenBank, alineamiento, evaluación de saturación, selección de modelos, inferencia de máxima verosimilitud con restricciones en RAxML-NG, datación con treePL, integración con la Lista Roja de la UICN y validación frente a árboles publicados. Incluye un módulo de código de barras de ADN para identificación molecular de muestras de cactus.</p>
 <p><a href="https://github.com/beeamerino/PhyloCactus">GitHub</a> · <a href="https://beeamerino.github.io/PhyloCactus/">Documentación</a></p>
 </section>
 </div>
@@ -373,7 +373,7 @@ ul.task-list li input[type="checkbox"] {
 <p><span class="kicker">Tutorial · en español</span></p>
 <section id="mappingr-visualización-de-datos-espaciales-en-r" class="level4">
 <h4 class="anchored" data-anchor-id="mappingr-visualización-de-datos-espaciales-en-r">MappingR: visualización de datos espaciales en R</h4>
-<p>Tutorial paso a paso (BIODATA, 2024) para hacer mapas de calidad de publicación: límites administrativos, datos de clima, suelo y elevación, relieve sombreado, paletas hipsométricas, barras de escala y mapas de ubicación con sf, terra, ggplot2 y tidyterra.</p>
+<p>Tutorial paso a paso (BIODATA, 2024) para hacer mapas con calidad de publicación: límites administrativos, datos de clima, suelo y elevación, relieve y sombreado, paletas hipsométricas, barras de escala y minimapas de referencia con sf, terra, ggplot2 y tidyterra.</p>
 <p><a href="https://beeamerino.github.io/BIODATA-MappingR/MappingR.html">Tutorial</a> · <a href="https://github.com/beeamerino/BIODATA-MappingR">GitHub</a></p>
 </section>
 </div>
@@ -405,13 +405,13 @@ ul.task-list li input[type="checkbox"] {
 <tbody>
 <tr class="odd">
 <td>Inferencia filogenética</td>
-<td>Máxima verosimilitud e inferencia bayesiana, selección de modelos y particiones, soporte de nodos (bootstrap, TBE), árboles de especies por coalescencia</td>
+<td>Máxima verosimilitud e inferencia bayesiana, selección de modelos de evolución molecular, soporte de nodos (bootstrap, TBE, <em>probabilidad de posteriori</em>), árboles de especies por coalescencia</td>
 <td>RAxML-NG, IQ-TREE, MrBayes, ModelTest-NG, PartitionFinder, ASTRAL-III</td>
 </tr>
 <tr class="even">
 <td>Datación molecular</td>
 <td>Tiempos de divergencia con calibraciones e incertidumbre temporal</td>
-<td>treePL</td>
+<td>treePL. BEAST2</td>
 </tr>
 <tr class="odd">
 <td>Comparación de filogenias</td>
@@ -431,7 +431,7 @@ ul.task-list li input[type="checkbox"] {
 <tr class="even">
 <td>Genética de poblaciones</td>
 <td>Estructura, ancestría y diversidad genética</td>
-<td>SNP por RAD-seq, microsatélites, STRUCTURE, DAPC</td>
+<td>SNP por RAD-seq, SSR, STRUCTURE, DAPC</td>
 </tr>
 <tr class="odd">
 <td>Secuencias y curación</td>
@@ -450,18 +450,18 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="even">
 <td>Datos de biodiversidad</td>
-<td>Registros de presencia, estándares y conciliación taxonómica</td>
+<td>Registros de presencia, estándares y curado taxonómico</td>
 <td>GBIF (rgbif), Darwin Core, taxize, Caryophyllales.org, API de la Lista Roja de la UICN</td>
 </tr>
 <tr class="odd">
 <td>Programación y reproducibilidad</td>
 <td>Desarrollo de librerías, visualización, aplicaciones web y flujos automatizados</td>
-<td>R (tidyverse, ggplot2, ggtree), devtools, testthat, pkgdown, Shiny, Quarto, Git, GitHub Actions, Python, computación de alto rendimiento (NLHPC)</td>
+<td>R (tidyverse, ggplot2, ggtree), devtools, testthat, pkgdown, Shiny, Quarto, Git, GitHub Actions, Python, computación de alto rendimiento (HPC y bash)</td>
 </tr>
 <tr class="even">
 <td>Laboratorio</td>
 <td>Biología molecular y ecofisiología</td>
-<td>Extracción de ADN en tejidos recalcitrantes, PCR, preparación para secuenciación, citometría de flujo, isótopos estables</td>
+<td>Extracción de ADN en tejidos recalcitrantes, PCR, preparación para secuenciación, citometría de flujo</td>
 </tr>
 </tbody>
 </table>

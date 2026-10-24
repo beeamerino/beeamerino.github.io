@@ -52,19 +52,21 @@ I study how plants diversify in the arid ecosystems of the Americas and why some
 
 #### PhyloCactus
 
+![](../assets/img/phylocactus-logo.png){.card-logo fig-alt="PhyloCactus logo"}
+
 R library for reproducible multilocus phylogenetics from GenBank: sequence mining, taxonomic curation, dated trees and DNA barcoding.
 
 [Code](https://github.com/beeamerino/PhyloCactus) · [Documentation](https://beeamerino.github.io/PhyloCactus/)
 :::
 
 ::: pcard
-[Paper · Annals of Botany 2024]{.kicker}
+[Cover article · Annals of Botany 2024]{.kicker}
 
 #### Pleistocene climate and speciation
 
 How glacial–interglacial cycles shaped range expansion and contraction, and with them speciation, in *Eriosyce* sect. *Neoporteria* in central Chile.
 
-[Read the paper](https://doi.org/10.1093/aob/mcae087)
+[Read the paper](https://doi.org/10.1093/aob/mcae087) · [See the issue](https://academic.oup.com/aob/issue/134/4)
 :::
 
 ::: pcard

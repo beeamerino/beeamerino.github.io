@@ -26,13 +26,17 @@ The code works and there are preliminary results; the final analysis depends on 
 
 ## Master's thesis
 
+```{=html}
+<figure class="cover-fig"><a href="https://academic.oup.com/aob/issue/134/4" target="_blank" rel="noopener"><img src="../assets/img/aob-134-4-cover.jpg" alt="Cover of Annals of Botany 134(4): Eriosyce litoralis in bloom with a giant hummingbird" onerror="this.closest('figure').remove()"></a><figcaption>Cover of <em>Annals of Botany</em> 134(4), 2024. Photo: <a href="https://www.instagram.com/bernardosegurafoto/" target="_blank" rel="noopener">Bernardo Segura</a>.</figcaption></figure>
+```
+
 *Master of Science in Botany · Universidad de Concepción · grade 7.0 on a 1–7 scale, Sobresaliente (2021)*
 
 "Oscilaciones climáticas y el conservatismo de nicho climático promueven la especiación alopátrica en cactus globosos polinizados por picaflores" [Climatic oscillations and climatic niche conservatism promote allopatric speciation in hummingbird-pollinated globose cacti]. The thesis studies how Pleistocene climatic oscillations drove cycles of range expansion and contraction, and with them speciation, in *Eriosyce* sect. *Neoporteria*. The same lineage makes it possible to examine how cryptic diversity is uncovered and how species are delimited with molecular data.
 
 I used phylogenetics, phylogeography, species distribution modeling under past climates and species delimitation.
 
-Outputs: [full thesis (UdeC repository, in Spanish)](https://repositorio.udec.cl/items/ba752332-f741-4092-bef8-04610ea96fcd) · [Meriño *et al.* 2024, *Annals of Botany*](https://doi.org/10.1093/aob/mcae087)
+Outputs: [full thesis (UdeC repository, in Spanish)](https://repositorio.udec.cl/items/ba752332-f741-4092-bef8-04610ea96fcd) · [Meriño *et al.* 2024, *Annals of Botany*](https://doi.org/10.1093/aob/mcae087), cover article of [issue 134(4)](https://academic.oup.com/aob/issue/134/4)
 
 ## Undergraduate thesis: the Chilean lúcumo (*Pouteria splendens*)
 

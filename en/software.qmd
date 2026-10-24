@@ -11,6 +11,8 @@ description: "Open-source R tools and tutorials for phylogenetics, spatial data 
 
 #### PhyloCactus
 
+![](../assets/img/phylocactus-logo.png){.card-logo fig-alt="PhyloCactus logo"}
+
 A 13-module workflow for Cactaceae phylogenetics: GenBank mining, alignment, saturation screening, model selection, constrained maximum-likelihood inference with RAxML-NG, dating with treePL, IUCN Red List integration and validation against published trees. It includes a DNA-barcoding module to identify cactus samples.
 
 [GitHub](https://github.com/beeamerino/PhyloCactus) · [Documentation](https://beeamerino.github.io/PhyloCactus/)

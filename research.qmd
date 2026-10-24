@@ -26,13 +26,17 @@ El código funciona y hay resultados preliminares; el análisis final depende de
 
 ## Tesis de magíster
 
+```{=html}
+<figure class="cover-fig"><a href="https://academic.oup.com/aob/issue/134/4" target="_blank" rel="noopener"><img src="assets/img/aob-134-4-cover.jpg" alt="Portada de Annals of Botany 134(4): Eriosyce litoralis en flor con un picaflor gigante" onerror="this.closest('figure').remove()"></a><figcaption>Portada de <em>Annals of Botany</em> 134(4), 2024. Foto: <a href="https://www.instagram.com/bernardosegurafoto/" target="_blank" rel="noopener">Bernardo Segura</a>.</figcaption></figure>
+```
+
 *Magíster en Ciencias mención Botánica · Universidad de Concepción · nota 7,0 en escala de 1 a 7, Sobresaliente (2021)*
 
 «Oscilaciones climáticas y el conservatismo de nicho climático promueven la especiación alopátrica en cactus globosos polinizados por picaflores». La tesis estudia cómo las oscilaciones climáticas del Pleistoceno generaron ciclos de expansión y contracción de rango, y con ellos especiación, en *Eriosyce* secc. *Neoporteria*. El mismo linaje permite evaluar cómo se revela la diversidad críptica y cómo se delimitan especies con datos moleculares.
 
 Usé filogenética, filogeografía, modelamiento de distribución de especies en climas pasados y delimitación de especies.
 
-Productos: [tesis completa (Repositorio UdeC)](https://repositorio.udec.cl/items/ba752332-f741-4092-bef8-04610ea96fcd) · [Meriño *et al.* 2024, *Annals of Botany*](https://doi.org/10.1093/aob/mcae087)
+Productos: [tesis completa (Repositorio UdeC)](https://repositorio.udec.cl/items/ba752332-f741-4092-bef8-04610ea96fcd) · [Meriño *et al.* 2024, *Annals of Botany*](https://doi.org/10.1093/aob/mcae087), artículo de portada del [número 134(4)](https://academic.oup.com/aob/issue/134/4)
 
 ## Tesis de pregrado: el lúcumo chileno (*Pouteria splendens*)
 

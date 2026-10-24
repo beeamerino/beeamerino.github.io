@@ -11,6 +11,8 @@ description: "Herramientas de código abierto en R y tutoriales de filogenética
 
 #### PhyloCactus
 
+![](assets/img/phylocactus-logo.png){.card-logo fig-alt="Logo de PhyloCactus"}
+
 Un flujo de trabajo de 13 módulos para la filogenética de Cactaceae: minado de GenBank, alineamiento, evaluación de saturación, selección de modelos, inferencia de máxima verosimilitud con restricciones en RAxML-NG, datación con treePL, integración con la Lista Roja de la UICN y validación frente a árboles publicados. Incluye un módulo de código de barras de ADN para identificar muestras de cactus.
 
 [GitHub](https://github.com/beeamerino/PhyloCactus) · [Documentación](https://beeamerino.github.io/PhyloCactus/)

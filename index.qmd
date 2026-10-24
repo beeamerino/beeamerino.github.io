@@ -18,7 +18,7 @@ Estudio cómo se diversifican las plantas en los ecosistemas áridos de América
 :::
 
 ```{=html}
-    <p class="hero-location"><i class="bi bi-geo-alt"></i> Concepción, Chile · disponible para trabajo remoto, híbrido e internacional</p>
+    <p class="hero-location"><i class="bi bi-geo-alt"></i> Concepción, Chile</p>
   </div>
   <div class="hero-side">
 <pre class="ascii" id="hero-ascii" aria-hidden="true" hidden>
@@ -52,19 +52,21 @@ Estudio cómo se diversifican las plantas en los ecosistemas áridos de América
 
 #### PhyloCactus
 
+![](assets/img/phylocactus-logo.png){.card-logo fig-alt="Logo de PhyloCactus"}
+
 Librería de R para filogenética multilocus reproducible a partir de GenBank: minado de secuencias, curación taxonómica, árboles datados y código de barras de ADN.
 
 [Código](https://github.com/beeamerino/PhyloCactus) · [Documentación](https://beeamerino.github.io/PhyloCactus/)
 :::
 
 ::: pcard
-[Artículo · Annals of Botany 2024]{.kicker}
+[Artículo de portada · Annals of Botany 2024]{.kicker}
 
-#### Clima del Pleistoceno y especiación
+#### Cambio climático y especiación
 
 Cómo los ciclos glaciales e interglaciales moldearon la expansión y contracción de rango, y con ellas la especiación de *Eriosyce* secc. *Neoporteria* en Chile central.
 
-[Leer el artículo](https://doi.org/10.1093/aob/mcae087)
+[Leer el artículo](https://doi.org/10.1093/aob/mcae087) · [Ver el número](https://academic.oup.com/aob/issue/134/4)
 :::
 
 ::: pcard
@@ -97,7 +99,7 @@ Tesis: *¿Qué factores estructuran la heterogeneidad de riqueza de cactáceas e
 
 Universidad de Concepción, Chile · [2021]{.when}
 
-Tesis: *Oscilaciones climáticas y el conservatismo de nicho climático promueven la especiación alopátrica en cactus globosos polinizados por picaflores* (nota 7,0 en escala de 1 a 7, Sobresaliente). [Ver tesis](https://repositorio.udec.cl/items/ba752332-f741-4092-bef8-04610ea96fcd)
+Tesis: *Oscilaciones climáticas y el conservatismo de nicho climático promueven la especiación alopátrica en cactus globosos polinizados por picaflores* (nota 7,0 en escala de 1 a 7). [Ver tesis](https://repositorio.udec.cl/items/ba752332-f741-4092-bef8-04610ea96fcd)
 :::
 
 ::: timeline-item

@@ -41,7 +41,7 @@ Estudio cómo se diversifican las plantas en los ecosistemas áridos de América
 ## Qué hago
 
 ::: tags
-[Macroevolución y biogeografía]{.tag} [Filogenética y datación molecular]{.tag} D[atos de biodiversidad (GenBank, GBIF, Darwin Core)]{.tag} [Curado taxonómic]{.tag}o [Código de barras de ADN]{.tag} [Genética y genómica de poblaciones]{.tag} [Modelamiento de distribución de especies]{.tag} [SIG y teledetección]{.tag} [Desarrollo en R (librerías, Shiny, Quarto)]{.tag} [Evaluación ambiental y restauración]{.tag} [Docencia y divulgación científica]{.tag}
+[Macroevolución y biogeografía]{.tag} [Filogenética y datación molecular]{.tag} [Datos de biodiversidad (GenBank, GBIF, Darwin Core)]{.tag} [Curado taxonómic]{.tag} [Código de barras de ADN]{.tag} [Genética y genómica de poblaciones]{.tag} [Modelamiento de distribución de especies]{.tag} [SIG y teledetección]{.tag} [Desarrollo en R (librerías, Shiny, Quarto)]{.tag} [Evaluación ambiental y restauración]{.tag} [Docencia y divulgación científica]{.tag}
 :::
 
 ## Trabajo destacado
@@ -66,7 +66,7 @@ Librería de R para filogenética multilocus reproducible a partir de GenBank: m
 
 Cómo los ciclos glaciales e interglaciales moldearon la expansión y contracción de rango, y con ellas la especiación de *Eriosyce* secc. *Neoporteria* en Chile central.
 
-[Leer el artículo](https://doi.org/10.1093/aob/mcae087) · [Ver el número](https://academic.oup.com/aob/issue/134/4)
+[Leer el artículo](https://doi.org/10.1093/aob/mcae087)
 :::
 
 ::: pcard

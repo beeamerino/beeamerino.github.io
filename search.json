@@ -1,0 +1,100 @@
+[
+  {
+    "objectID": "software.html",
+    "href": "software.html",
+    "title": "Software y tutoriales",
+    "section": "",
+    "text": "Escribo código documentado y probado para analizar datos de biodiversidad, principalmente en R."
+  },
+  {
+    "objectID": "software.html#habilidades-técnicas",
+    "href": "software.html#habilidades-técnicas",
+    "title": "Software y tutoriales",
+    "section": "Habilidades técnicas",
+    "text": "Habilidades técnicas\n\n\n\n\n\n\n\n\n\nÁrea\nQué hago\nHerramientas\n\n\n\n\nInferencia filogenética\nMáxima verosimilitud e inferencia bayesiana, selección de modelos y particiones, soporte de nodos (bootstrap, TBE), árboles de especies por coalescencia\nRAxML-NG, IQ-TREE, MrBayes, ModelTest-NG, PartitionFinder, ASTRAL-III\n\n\nDatación molecular\nTiempos de divergencia con calibraciones e incertidumbre temporal\ntreePL\n\n\nComparación de filogenias\nCongruencia entre topologías y espacio de árboles (Robinson-Foulds, distancias de información)\nTreeDist, phangorn, ape\n\n\nMacroevolución\nTasas y regímenes de diversificación\nBAMM, MiSSE (hisse), DR, diversitree, phytools\n\n\nBiogeografía histórica\nReconstrucción de rangos ancestrales y mapeo estocástico biogeográfico\nBioGeoBEARS (BSM)\n\n\nGenética de poblaciones\nEstructura, ancestría y diversidad genética\nSNP por RAD-seq, microsatélites, STRUCTURE, DAPC\n\n\nSecuencias y curación\nMinado de GenBank, alineamiento, enmascarado y control de calidad\nphylotaR, rentrez, MAFFT, DECIPHER, trimAl, Biostrings\n\n\nEstadística y aprendizaje automático\nModelos lineales mixtos, selección de modelos (AIC), validación cruzada, análisis multivariado y agrupamiento (clustering)\nglmmTMB, tidymodels, ranger, xgboost, FactoMineR, cluster\n\n\nAnálisis espacial y modelos de distribución (SDM)\nModelamiento de distribución de especies en climas pasados, presentes y futuros; teledetección\nbiomod2, terra, sf, CHELSA, PaleoClim, QGIS, Landsat, fotogrametría con dron, NDVI\n\n\nDatos de biodiversidad\nRegistros de presencia, estándares y conciliación taxonómica\nGBIF (rgbif), Darwin Core, taxize, Caryophyllales.org, API de la Lista Roja de la UICN\n\n\nProgramación y reproducibilidad\nDesarrollo de librerías, visualización, aplicaciones web y flujos automatizados\nR (tidyverse, ggplot2, ggtree), devtools, testthat, pkgdown, Shiny, Quarto, Git, GitHub Actions, Python, computación de alto rendimiento (NLHPC)\n\n\nLaboratorio\nBiología molecular y ecofisiología\nExtracción de ADN en tejidos recalcitrantes, PCR, preparación para secuenciación, citometría de flujo, isótopos estables"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publicaciones",
+    "section": "",
+    "text": "Mi nombre aparece en negrita. Las métricas de citas están en mi perfil de Google Scholar; ORCID tiene la lista completa."
+  },
+  {
+    "objectID": "publications.html#en-preparación",
+    "href": "publications.html#en-preparación",
+    "title": "Publicaciones",
+    "section": "En preparación",
+    "text": "En preparación\n\nMeriño, B. M. et al. PhyloCactus: an R library for curated, time-calibrated phylogenies of Cactaceae from public sequence data. Revista objetivo: Scientific Data. En preparación"
+  },
+  {
+    "objectID": "publications.html#artículos-con-revisión-de-pares-6",
+    "href": "publications.html#artículos-con-revisión-de-pares-6",
+    "title": "Publicaciones",
+    "section": "Artículos con revisión de pares 6",
+    "text": "Artículos con revisión de pares 6\n\n2025\n\nGuerrero, P. C., Martínez-Harms, J., Arroyo, M. T. K., Eaton, D., Meriño, B. M., Varas-Myrik, A., Villalobos-Barrantes, H. M. & Carvallo, G. O. (2025). Pollination niche shifts in sympatric globular cacti Eriosyce: consequences on reproductive isolation and species formation. Plant Diversity, 47(3), 440–453. DOI PDF\n\n\n\n2024\n\nMeriño, B. M., Villalobos-Barrantes, H. M. & Guerrero, P. C. (2024). Pleistocene climate oscillations have shaped the expansion and contraction speciation model of the globose Eriosyce sect. Neoporteria cacti in Central Chile. Annals of Botany, 134(4), 651–664. DOI\n\n\nWalter, H. E., Cádiz-Véliz, A., Meriño, B. M., Villalobos-Barrantes, H. M. & Guerrero, P. C. (2024). Taxonomic dissection based on molecular evidence of the Eriosyce curvispina complex (Cactaceae): identifying nine endemic species from Central Chile. PhytoKeys, 237, 117–139. DOI PDF\n\n\n\n2022\n\nVillalobos-Barrantes, H. M., Meriño, B. M., Walter, H. E. & Guerrero, P. C. (2022). Independent evolutionary lineages in a globular cactus species complex reveals hidden diversity in a Central Chile biodiversity hotspot. Genes, 13(2), 240. DOI PDF\n\n\n\n2019\n\nCarvallo, G. O., Vergara-Meriño, B., Díaz, A., Villagra, C. A. & Guerrero, P. C. (2019). Rocky outcrops conserve genetic diversity and promote regeneration of a threatened relict tree in a critically endangered ecosystem. Biodiversity and Conservation, 28(11), 2805–2824. DOI\n\n\nGuerrero, P. C., Antinao, C. A., Vergara-Meriño, B., Villagra, C. A. & Carvallo, G. O. (2019). Bees may drive the reproduction of four sympatric cacti in a vanishing coastal mediterranean-type ecosystem. PeerJ, 7, e7865. DOI PDF"
+  },
+  {
+    "objectID": "publications.html#software",
+    "href": "publications.html#software",
+    "title": "Publicaciones",
+    "section": "Software",
+    "text": "Software\n\nMeriño, B. M. (2026). PhyloCactus: phylogenetic inference, divergence time estimation and molecular identification for Cactaceae. Librería de R (versión en desarrollo). Código"
+  },
+  {
+    "objectID": "gallery.html",
+    "href": "gallery.html",
+    "title": "Galería",
+    "section": "",
+    "text": "Algunas fotos de mi travesía investigando los ecosistemas áridos de América. Las ubicaciones de las especies amenazadas se indican solo a nivel de región.\n\n\n\nCopiapoa humilis: plantas diminutas que apenas asoman entre la arena y la grava.Desierto de Atacama\n\n\nUna casa de piedra abandonada; la puerta, con marco de madera probablemente de Leucostele atacamensis, deja ver el pajonal.Cerca de Salta, Argentina\n\n\nEspinas de Leucostele chiloensis a contraluz, donde se condensa la humedad de la camanchaca.Chile central\n\n\nEriosyce garaventae en la cordillera de la Costa, con un mar de nubes y la cordillera de los Andes al fondo.Chile central\n\n\nEriosyce litoralis en flor, en medio del matorral costero.Región de Coquimbo\n\n\nUn guanaco en la pampa del desierto.Desierto de Atacama\n\n\nLa luna asoma sobre los cerros de la costa del desierto.Desierto de Atacama\n\n\nSaguaros (Carnegiea gigantea) en mi camino al Desert Botanical Garden.Arizona, EE. UU.\n\n\nUn saguaro a contraluz en los cordones de South Mountain, Phoenix.Arizona, EE. UU.\n\n\n\n\nVer respuesta\n¿Lo encuentras? En esta ladera de lajas hay una Yavia cryptocarpa.Puna argentina\n\n\n\n\n\n\n Volver arriba"
+  },
+  {
+    "objectID": "index.html#qué-hago",
+    "href": "index.html#qué-hago",
+    "title": "Beatriz M. Meriño",
+    "section": "Qué hago",
+    "text": "Qué hago\n\nMacroevolución y biogeografía Filogenética y datación molecular Curación de datos públicos (GenBank, GBIF, Darwin Core) Conciliación taxonómica Código de barras de ADN Genética y genómica de poblaciones Modelamiento de distribución de especies SIG y teledetección Desarrollo en R (librerías, Shiny, Quarto) Evaluación ambiental y restauración Docencia y divulgación científica"
+  },
+  {
+    "objectID": "index.html#trabajo-destacado",
+    "href": "index.html#trabajo-destacado",
+    "title": "Beatriz M. Meriño",
+    "section": "Trabajo destacado",
+    "text": "Trabajo destacado\n\n\nSoftware\n\nPhyloCactus\nLibrería de R para filogenética multilocus reproducible a partir de GenBank: minado de secuencias, curación taxonómica, árboles datados y código de barras de ADN.\nCódigo · Documentación\n\n\n\nArtículo · Annals of Botany 2024\n\nClima del Pleistoceno y especiación\nCómo los ciclos glaciales e interglaciales moldearon la expansión y contracción de rango, y con ellas la especiación de Eriosyce secc. Neoporteria en Chile central.\nLeer el artículo\n\n\n\nTesis doctoral · en curso\n\nBiogeografía y riqueza de especies\nPor qué algunas regiones de América concentran más especies: edad de colonización, dispersión y diversificación reconstruidas sobre una filogenia datada.\nMás investigación →\n\n\n\n\n· · ·"
+  },
+  {
+    "objectID": "index.html#formación",
+    "href": "index.html#formación",
+    "title": "Beatriz M. Meriño",
+    "section": "Formación",
+    "text": "Formación\n\nDoctorado (c) en Sistemática y Biodiversidad\nUniversidad de Concepción, Chile · en curso\nTesis: ¿Qué factores estructuran la heterogeneidad de riqueza de cactáceas en los biomas de América? Pasantía de investigación en el Desert Botanical Garden y Arizona State University (Phoenix, EE. UU., 2024).\n\n\nMagíster en Ciencias mención Botánica\nUniversidad de Concepción, Chile · 2021\nTesis: Oscilaciones climáticas y el conservatismo de nicho climático promueven la especiación alopátrica en cactus globosos polinizados por picaflores (nota 7,0 en escala de 1 a 7, Sobresaliente). Ver tesis\n\n\nBióloga (título profesional) y Licenciada en Biología\nUniversidad de Concepción, Chile · 2017\nTesis de título sobre la genética de la conservación del lúcumo chileno (Pouteria splendens)."
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Investigación",
+    "section": "",
+    "text": "Estudio cómo se diversifican y persisten los linajes de plantas en los ecosistemas áridos y mediterráneos, y cómo ese conocimiento puede orientar la conservación."
+  },
+  {
+    "objectID": "research.html#tesis-doctoral-en-curso",
+    "href": "research.html#tesis-doctoral-en-curso",
+    "title": "Investigación",
+    "section": "Tesis doctoral (en curso)",
+    "text": "Tesis doctoral (en curso)\nDoctorado en Sistemática y Biodiversidad · Universidad de Concepción · Profesor guía: Dr. Pablo C. Guerrero\n«¿Qué factores estructuran la heterogeneidad de riqueza de cactáceas en los biomas de América?» La tesis combina una filogenia datada de la familia con reconstrucciones biogeográficas para entender por qué algunas regiones concentran muchas más especies que otras. Tiene dos líneas de trabajo, ambas en desarrollo:\n\n1. PhyloCactus: de GenBank a filogenias datadas\nLibrería de R que automatiza el minado de secuencias de GenBank, la conciliación taxonómica con la lista de especies de Caryophyllales.org, la construcción de supermatrices multilocus y de bibliotecas de referencia de secuencias para código de barras de ADN, y la inferencia y datación de filogenias de Cactaceae. Es la base filogenética de toda la tesis.\nLa librería funciona y está documentada; el manuscrito está en preparación.\nCódigo · Documentación\n\n\n2. Biogeografía histórica y riqueza regional de cactáceas\nReconstruye la historia biogeográfica de la familia con BioGeoBEARS y mapeo estocástico biogeográfico para estimar, por región, la edad de colonización, las tasas de dispersión y la diversificación. Luego evalúa cuánto explica cada componente de la riqueza regional en tres formas de dividir el espacio climático (biomas, Köppen-Geiger y clústeres climáticos multivariados), con modelos mixtos (GLMM) y validación con aprendizaje automático (ML).\nEl código funciona y hay resultados preliminares; el análisis final depende de la filogenia datada de PhyloCactus."
+  },
+  {
+    "objectID": "research.html#tesis-de-magíster",
+    "href": "research.html#tesis-de-magíster",
+    "title": "Investigación",
+    "section": "Tesis de magíster",
+    "text": "Tesis de magíster\nMagíster en Ciencias mención Botánica · Universidad de Concepción · nota 7,0 en escala de 1 a 7, Sobresaliente (2021)\n«Oscilaciones climáticas y el conservatismo de nicho climático promueven la especiación alopátrica en cactus globosos polinizados por picaflores». La tesis estudia cómo las oscilaciones climáticas del Pleistoceno generaron ciclos de expansión y contracción de rango, y con ellos especiación, en Eriosyce secc. Neoporteria. El mismo linaje permite evaluar cómo se revela la diversidad críptica y cómo se delimitan especies con datos moleculares.\nUsé filogenética, filogeografía, modelamiento de distribución de especies en climas pasados y delimitación de especies.\nProductos: tesis completa (Repositorio UdeC) · Meriño et al. 2024, Annals of Botany"
+  },
+  {
+    "objectID": "research.html#tesis-de-pregrado-el-lúcumo-chileno-pouteria-splendens",
+    "href": "research.html#tesis-de-pregrado-el-lúcumo-chileno-pouteria-splendens",
+    "title": "Investigación",
+    "section": "Tesis de pregrado: el lúcumo chileno (Pouteria splendens)",
+    "text": "Tesis de pregrado: el lúcumo chileno (Pouteria splendens)\nTítulo profesional de Bióloga y grado de Licenciada en Biología · Universidad de Concepción (2017)\nEstudié la genética de la conservación de un árbol endémico de la costa de Chile central, en peligro, del que según Carvallo et al. (2019) quedan solo dos poblaciones naturales. Los afloramientos rocosos son refugios que conservan su diversidad genética y permiten su regeneración.\nProductos: Carvallo et al. 2019, Biodiversity and Conservation · presentación oral en el XII Congreso Latinoamericano de Botánica (Quito, 2018) · columna de divulgación en El Mercurio (2022)."
+  }
+]

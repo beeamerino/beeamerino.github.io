@@ -1,8 +1,0 @@
----
-title: "Publicaciones"
-description: "Artículos con revisión de pares, manuscritos en preparación y software de investigación."
----
-
-[Mi nombre aparece en **negrita**. Las métricas de citas están en mi perfil de [Google Scholar](https://scholar.google.cl/citations?user=RLAXrAcAAAAJ); [ORCID](https://orcid.org/0000-0002-9518-2331) tiene la lista completa.]{.lead-text}
-
-{{< include _publications_es.md >}}

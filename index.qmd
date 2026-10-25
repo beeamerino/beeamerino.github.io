@@ -41,7 +41,7 @@ Estudio cómo se diversifican las plantas en los ecosistemas áridos de América
 ## Qué hago
 
 ::: tags
-[Macroevolución y biogeografía]{.tag} [Filogenética y datación molecular]{.tag} [Datos de biodiversidad (GenBank, GBIF, Darwin Core)]{.tag} [Curado taxonómic]{.tag} [Código de barras de ADN]{.tag} [Genética y genómica de poblaciones]{.tag} [Modelamiento de distribución de especies]{.tag} [SIG y teledetección]{.tag} [Desarrollo en R (librerías, Shiny, Quarto)]{.tag} [Evaluación ambiental y restauración]{.tag} [Docencia y divulgación científica]{.tag}
+[Macroevolución y biogeografía]{.tag} [Filogenética y datación molecular]{.tag} [Datos de biodiversidad (GenBank, GBIF, Darwin Core)]{.tag} [Curado taxonómico]{.tag} [Código de barras de ADN]{.tag} [Genética y genómica de poblaciones]{.tag} [Modelamiento de distribución de especies]{.tag} [SIG y teledetección]{.tag} [Desarrollo en R (librerías, Shiny, Quarto)]{.tag} [Evaluación ambiental y restauración]{.tag} [Docencia y divulgación científica]{.tag}
 :::
 
 ## Trabajo destacado

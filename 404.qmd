@@ -1,5 +1,6 @@
 ---
-title: "Página no encontrada"
+title: "404"
+pagetitle: "Página no encontrada"
 ---
 
 ::: {.not-found}
@@ -19,9 +20,44 @@ title: "Página no encontrada"
 </pre>
 ```
 
+::: {.nf-es}
 **404.** Aquí no crece nada: solo arena y sol. Recuerda usar protector solar y sombrero.
 
-*Nothing grows here: only sand and sun. Remember your sunscreen and hat.*
+[Volver al inicio](/){.btn .btn-primary} [Read in English](/en/){.btn .btn-outline-primary}
+:::
 
-[Volver al inicio](index.qmd){.btn .btn-primary}
+::: {.nf-en}
+**404.** Nothing grows here: only sand and sun. Remember your sunscreen and hat.
+
+[Back to home](/en/){.btn .btn-primary} [Leer en español](/){.btn .btn-outline-primary}
+:::
+
+```{=html}
+<script>
+/* GitHub Pages serves this same page for every missing address, so the language is chosen here:
+   English when the missing page was under /en/, when the visitor came from an English page,
+   or when the browser prefers English; Spanish otherwise. */
+document.addEventListener("DOMContentLoaded", function () {
+  var en = /^\/en\//.test(location.pathname) || /\/en\//.test(document.referrer) ||
+           (!/^es/i.test(navigator.language || "") && /^en/i.test(navigator.language || ""));
+  document.documentElement.lang = en ? "en" : "es";
+  document.querySelector(en ? ".nf-es" : ".nf-en").hidden = true;
+  var toggle = document.querySelector("a.lang-toggle");
+  if (toggle) toggle.setAttribute("href", en ? "/" : "/en/");
+  if (!en) return;
+  document.title = "Page not found – Beatriz M. Meriño";
+  /* the single 404 page has the Spanish menu: switch it to the English pages */
+  var map = {"Inicio": ["Home", "/en/"], "Investigación": ["Research", "/en/research.html"],
+             "Publicaciones": ["Publications", "/en/publications.html"], "Software": ["Software", "/en/software.html"],
+             "Galería": ["Gallery", "/en/gallery.html"]};
+  document.querySelectorAll(".navbar .nav-link").forEach(function (a) {
+    var t = a.querySelector(".menu-text"); var k = t && t.textContent.trim();
+    if (map[k]) { t.textContent = map[k][0]; a.setAttribute("href", map[k][1]); }
+  });
+  var brand = document.querySelector(".navbar-brand"); if (brand) brand.setAttribute("href", "/en/");
+  var right = document.querySelector(".nav-footer-right");
+  if (right) right.innerHTML = right.innerHTML.replace("Hecho con", "Built with").replace("alojado en", "hosted on");
+});
+</script>
+```
 :::

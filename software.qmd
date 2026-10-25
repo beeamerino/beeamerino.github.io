@@ -44,8 +44,8 @@ Evalúa la idoneidad climática de predios agrícolas (por ejemplo, viñedos) en
 ::: software-table
 | Área | Qué hago | Herramientas |
 |----|----|----|
-| Inferencia filogenética | Máxima verosimilitud e inferencia bayesiana, selección de modelos de evolución molecular, soporte de nodos (bootstrap, TBE, *probabilidad de posteriori*), árboles de especies por coalescencia | RAxML-NG, IQ-TREE, MrBayes, ModelTest-NG, PartitionFinder, ASTRAL-III |
-| Datación molecular | Tiempos de divergencia con calibraciones e incertidumbre temporal | treePL. BEAST2 |
+| Inferencia filogenética | Máxima verosimilitud e inferencia bayesiana, selección de modelos de evolución molecular, soporte de nodos (bootstrap, TBE, probabilidad posterior), árboles de especies por coalescencia | RAxML-NG, IQ-TREE, MrBayes, ModelTest-NG, PartitionFinder, ASTRAL-III |
+| Datación molecular | Tiempos de divergencia con calibraciones e incertidumbre temporal | treePL, BEAST2 |
 | Comparación de filogenias | Congruencia entre topologías y espacio de árboles (Robinson-Foulds, distancias de información) | TreeDist, phangorn, ape |
 | Macroevolución | Tasas y regímenes de diversificación | BAMM, MiSSE (hisse), DR, diversitree, phytools |
 | Biogeografía histórica | Reconstrucción de rangos ancestrales y mapeo estocástico biogeográfico | BioGeoBEARS (BSM) |

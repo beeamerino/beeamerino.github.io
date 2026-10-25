@@ -13,7 +13,7 @@ description: "Open-source R tools and tutorials for phylogenetics, spatial data 
 
 ![](../assets/img/phylocactus-logo.png){.card-logo fig-alt="PhyloCactus logo"}
 
-A 13-module workflow for Cactaceae phylogenetics: GenBank mining, alignment, saturation screening, model selection, constrained maximum-likelihood inference with RAxML-NG, dating with treePL, IUCN Red List integration and validation against published trees. It includes a DNA-barcoding module to identify cactus samples.
+A 13-module workflow for Cactaceae phylogenetics: GenBank mining, alignment, saturation screening, model selection, constrained maximum-likelihood inference with RAxML-NG, dating with treePL, IUCN Red List integration and validation against published trees. It includes a DNA-barcoding module for the molecular identification of cactus samples.
 
 [GitHub](https://github.com/beeamerino/PhyloCactus) · [Documentation](https://beeamerino.github.io/PhyloCactus/)
 :::
@@ -23,7 +23,7 @@ A 13-module workflow for Cactaceae phylogenetics: GenBank mining, alignment, sat
 
 #### MappingR: spatial data visualization in R
 
-A step-by-step tutorial (BIODATA, 2024) for publication-quality maps: administrative boundaries, climate, soil and elevation data, hillshade relief, hypsometric palettes, scale bars and location maps with sf, terra, ggplot2 and tidyterra.
+A step-by-step tutorial (BIODATA, 2024) for publication-quality maps: administrative boundaries, climate, soil and elevation data, relief and hillshade, hypsometric palettes, scale bars and inset reference maps with sf, terra, ggplot2 and tidyterra.
 
 [Tutorial](https://beeamerino.github.io/BIODATA-MappingR/MappingR.html) · [GitHub](https://github.com/beeamerino/BIODATA-MappingR)
 :::
@@ -44,16 +44,16 @@ Evaluates the climatic suitability of farmland (for example, vineyards) under pa
 ::: {.software-table}
 | Area | What I do | Tools |
 |---|---|---|
-| Phylogenetic inference | Maximum-likelihood and Bayesian inference, model and partition selection, node support (bootstrap, TBE), coalescent species trees | RAxML-NG, IQ-TREE, MrBayes, ModelTest-NG, PartitionFinder, ASTRAL-III |
-| Molecular dating | Divergence times with calibrations and temporal uncertainty | treePL |
+| Phylogenetic inference | Maximum-likelihood and Bayesian inference, selection of molecular evolution models, node support (bootstrap, TBE, posterior probability), coalescent species trees | RAxML-NG, IQ-TREE, MrBayes, ModelTest-NG, PartitionFinder, ASTRAL-III |
+| Molecular dating | Divergence times with calibrations and temporal uncertainty | treePL, BEAST2 |
 | Phylogeny comparison | Topological congruence and tree space (Robinson-Foulds, information distances) | TreeDist, phangorn, ape |
 | Macroevolution | Diversification rates and regimes | BAMM, MiSSE (hisse), DR, diversitree, phytools |
 | Historical biogeography | Ancestral range reconstruction and biogeographic stochastic mapping | BioGeoBEARS (BSM) |
-| Population genetics | Structure, ancestry and genetic diversity | RAD-seq SNPs, microsatellites, STRUCTURE, DAPC |
+| Population genetics | Structure, ancestry and genetic diversity | RAD-seq SNPs, SSR, STRUCTURE, DAPC |
 | Sequences and curation | GenBank mining, alignment, masking and quality control | phylotaR, rentrez, MAFFT, DECIPHER, trimAl, Biostrings |
 | Statistics and machine learning | Linear mixed models, model selection (AIC), cross-validation, multivariate analysis and clustering | glmmTMB, tidymodels, ranger, xgboost, FactoMineR, cluster |
 | Spatial analysis and species distribution models (SDM) | Species distribution modeling under past, present and future climates; remote sensing | biomod2, terra, sf, CHELSA, PaleoClim, QGIS, Landsat, drone photogrammetry, NDVI |
-| Biodiversity data | Occurrence records, standards and taxonomic reconciliation | GBIF (rgbif), Darwin Core, taxize, Caryophyllales.org, IUCN Red List API |
-| Programming and reproducibility | Library development, visualization, web applications and automated workflows | R (tidyverse, ggplot2, ggtree), devtools, testthat, pkgdown, Shiny, Quarto, Git, GitHub Actions, Python, high-performance computing (NLHPC) |
-| Laboratory | Molecular biology and ecophysiology | DNA extraction from recalcitrant tissues, PCR, sequencing preparation, flow cytometry, stable isotopes |
+| Biodiversity data | Occurrence records, standards and taxonomic curation | GBIF (rgbif), Darwin Core, taxize, Caryophyllales.org, IUCN Red List API |
+| Programming and reproducibility | Library development, visualization, web applications and automated workflows | R (tidyverse, ggplot2, ggtree), devtools, testthat, pkgdown, Shiny, Quarto, Git, GitHub Actions, Python, high-performance computing (HPC and bash) |
+| Laboratory | Molecular biology and ecophysiology | DNA extraction from recalcitrant tissues, PCR, sequencing preparation, flow cytometry |
 :::

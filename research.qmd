@@ -15,7 +15,7 @@ description: "Investigación en sistemática vegetal, especiación, biogeografí
 
 ![](assets/img/phylocactus-logo.png){.section-logo fig-alt="Logo de PhyloCactus"}
 
-Librería de R que automatiza el minado de secuencias de GenBank, el curado taxonómico con la lista de especies de Caryophyllales.org, la construcción de supermatrices multilocus y de bibliotecas de referencia de secuencias para identificación molecular (DNA Barcoding), y la inferencia y datación de filogenias de Cactaceae. Es la base filogenética de toda la tesis.
+Librería de R que automatiza el minado de secuencias de GenBank, el curado taxonómico con la lista de especies de Caryophyllales.org, la construcción de supermatrices multilocus y de bibliotecas de referencia de secuencias para identificación molecular (DNA barcoding), y la inferencia y datación de filogenias de Cactaceae. Es la base filogenética de toda la tesis.
 
 La librería funciona y está documentada; el manuscrito está en preparación.\
 [Código](https://github.com/beeamerino/PhyloCactus) · [Documentación](https://beeamerino.github.io/PhyloCactus/)
@@ -44,6 +44,6 @@ Productos: [tesis completa (Repositorio UdeC)](https://repositorio.udec.cl/items
 
 *Título profesional de Bióloga y grado de Licenciada en Biología · Universidad de Concepción (2017)*
 
-Estudié la genética de la conservación de un arbusto endémico de la costa de Chile central, en peligro de extinción, y del cual quedan sólo dos poblaciones naturales. Los afloramientos rocosos son refugios que conservan su diversidad genética y permiten su regeneración.
+Estudié la genética de la conservación de un arbusto endémico de la costa de Chile central, en peligro de extinción, y del cual quedan solo dos poblaciones naturales. Los afloramientos rocosos son refugios que conservan su diversidad genética y permiten su regeneración.
 
 Productos: [Carvallo *et al.* 2019, *Biodiversity and Conservation*](https://doi.org/10.1007/s10531-019-01797-6) · presentación oral en el XII Congreso Latinoamericano de Botánica (Quito, 2018) · columna de divulgación en *El Mercurio* (2022).

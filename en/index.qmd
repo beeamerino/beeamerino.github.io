@@ -18,7 +18,7 @@ I study how plants diversify in the arid ecosystems of the Americas and why some
 :::
 
 ```{=html}
-    <p class="hero-location"><i class="bi bi-geo-alt"></i> Concepción, Chile · open to remote, hybrid and international roles</p>
+    <p class="hero-location"><i class="bi bi-geo-alt"></i> Concepción, Chile</p>
   </div>
   <div class="hero-side">
 <pre class="ascii" id="hero-ascii" aria-hidden="true" hidden>
@@ -41,7 +41,7 @@ I study how plants diversify in the arid ecosystems of the Americas and why some
 ## What I do
 
 ::: tags
-[Macroevolution and biogeography]{.tag} [Phylogenetics and molecular dating]{.tag} [Curation of public data (GenBank, GBIF, Darwin Core)]{.tag} [Taxonomic reconciliation]{.tag} [DNA barcoding]{.tag} [Population genetics and genomics]{.tag} [Species distribution modeling]{.tag} [GIS and remote sensing]{.tag} [R development (libraries, Shiny, Quarto)]{.tag} [Environmental assessment and restoration]{.tag} [Teaching and science communication]{.tag}
+[Macroevolution and biogeography]{.tag} [Phylogenetics and molecular dating]{.tag} [Biodiversity data (GenBank, GBIF, Darwin Core)]{.tag} [Taxonomic curation]{.tag} [DNA barcoding]{.tag} [Population genetics and genomics]{.tag} [Species distribution modeling]{.tag} [GIS and remote sensing]{.tag} [R development (libraries, Shiny, Quarto)]{.tag} [Environmental assessment and restoration]{.tag} [Teaching and science communication]{.tag}
 :::
 
 ## Featured work
@@ -60,9 +60,9 @@ R library for reproducible multilocus phylogenetics from GenBank: sequence minin
 :::
 
 ::: pcard
-[Cover article · Annals of Botany 2024]{.kicker}
+[Annals of Botany 2024]{.kicker}
 
-#### Pleistocene climate and speciation
+#### Climate change and speciation
 
 How glacial–interglacial cycles shaped range expansion and contraction, and with them speciation, in *Eriosyce* sect. *Neoporteria* in central Chile.
 
@@ -99,7 +99,7 @@ Thesis: *¿Qué factores estructuran la heterogeneidad de riqueza de cactáceas 
 
 Universidad de Concepción, Chile · [2021]{.when}
 
-Thesis: *Oscilaciones climáticas y el conservatismo de nicho climático promueven la especiación alopátrica en cactus globosos polinizados por picaflores* [Climatic oscillations and climatic niche conservatism promote allopatric speciation in hummingbird-pollinated globose cacti] (grade 7.0 on a 1–7 scale, Sobresaliente). [Read the thesis (in Spanish)](https://repositorio.udec.cl/items/ba752332-f741-4092-bef8-04610ea96fcd)
+Thesis: *Oscilaciones climáticas y el conservatismo de nicho climático promueven la especiación alopátrica en cactus globosos polinizados por picaflores* [Climatic oscillations and climatic niche conservatism promote allopatric speciation in hummingbird-pollinated globose cacti] (grade 7.0 on a 1–7 scale). [Read the thesis (in Spanish)](https://repositorio.udec.cl/items/ba752332-f741-4092-bef8-04610ea96fcd)
 :::
 
 ::: timeline-item

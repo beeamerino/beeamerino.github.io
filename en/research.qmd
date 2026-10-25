@@ -3,7 +3,7 @@ title: "Research"
 description: "Research in plant systematics, speciation, biogeography and conservation in arid ecosystems."
 ---
 
-[I study how plant lineages diversify and persist in arid and Mediterranean-type ecosystems, and how that knowledge can guide conservation.]{.lead-text}
+[I study how plant lineages diversify and persist in arid and Mediterranean-type ecosystems, and how that knowledge can guide their conservation.]{.lead-text}
 
 ## Doctoral thesis (in progress)
 
@@ -15,7 +15,7 @@ description: "Research in plant systematics, speciation, biogeography and conser
 
 ![](../assets/img/phylocactus-logo.png){.section-logo fig-alt="PhyloCactus logo"}
 
-An R library that automates sequence mining from GenBank, taxonomic reconciliation against the Caryophyllales.org species list, the assembly of multilocus supermatrices and of reference sequence libraries for DNA barcoding, and the inference and dating of Cactaceae phylogenies. It is the phylogenetic basis of the whole thesis.
+An R library that automates sequence mining from GenBank, taxonomic curation against the Caryophyllales.org species list, the assembly of multilocus supermatrices and of reference sequence libraries for molecular identification (DNA barcoding), and the inference and dating of Cactaceae phylogenies. It is the phylogenetic basis of the whole thesis.
 
 The library works and is documented; the manuscript is in preparation.\
 [Code](https://github.com/beeamerino/PhyloCactus) · [Documentation](https://beeamerino.github.io/PhyloCactus/)
@@ -32,7 +32,7 @@ The code works and there are preliminary results; the final analysis depends on 
 <figure class="cover-fig"><a href="https://academic.oup.com/aob/issue/134/4" target="_blank" rel="noopener"><img src="../assets/img/aob-134-4-cover.jpg" alt="Cover of Annals of Botany 134(4): Eriosyce litoralis in bloom with a giant hummingbird" onerror="this.closest('figure').remove()"></a><figcaption>Cover of <em>Annals of Botany</em> 134(4), 2024. Photo: <a href="https://www.instagram.com/bernardosegurafoto/" target="_blank" rel="noopener">Bernardo Segura</a>.</figcaption></figure>
 ```
 
-*Master of Science in Botany · Universidad de Concepción · grade 7.0 on a 1–7 scale, Sobresaliente (2021)*
+*Master of Science in Botany · Universidad de Concepción · grade 7.0 on a 1–7 scale (2021)*
 
 "Oscilaciones climáticas y el conservatismo de nicho climático promueven la especiación alopátrica en cactus globosos polinizados por picaflores" [Climatic oscillations and climatic niche conservatism promote allopatric speciation in hummingbird-pollinated globose cacti]. The thesis studies how Pleistocene climatic oscillations drove cycles of range expansion and contraction, and with them speciation, in *Eriosyce* sect. *Neoporteria*. The same lineage makes it possible to examine how cryptic diversity is uncovered and how species are delimited with molecular data.
 
@@ -44,6 +44,6 @@ Outputs: [full thesis (UdeC repository, in Spanish)](https://repositorio.udec.cl
 
 *Biologist (professional degree) and Bachelor of Science in Biology · Universidad de Concepción (2017)*
 
-I studied the conservation genetics of an endangered tree endemic to the coast of central Chile, of which, according to Carvallo *et al.* (2019), only two natural populations remain. Rocky outcrops are refuges that conserve its genetic diversity and allow its regeneration.
+I studied the conservation genetics of an endangered shrub endemic to the coast of central Chile, of which only two natural populations remain. Rocky outcrops are refuges that conserve its genetic diversity and allow its regeneration.
 
 Outputs: [Carvallo *et al.* 2019, *Biodiversity and Conservation*](https://doi.org/10.1007/s10531-019-01797-6) · oral presentation at the XII Latin American Botanical Congress (Quito, 2018) · science column in *El Mercurio* (2022).

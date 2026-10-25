@@ -81,12 +81,12 @@ ul.task-list li input[type="checkbox"] {
 <style>html{ scroll-behavior: smooth; }</style>
 
 
-<meta property="og:title" content="Página no encontrada – Beatriz M. Meriño">
+<meta property="og:title" content="Página no encontrada">
 <meta property="og:image" content="https://beeamerino.github.io/assets/img/social-card.png">
 <meta property="og:site_name" content="Beatriz M. Meriño">
 <meta property="og:image:height" content="630">
 <meta property="og:image:width" content="1200">
-<meta name="twitter:title" content="Página no encontrada – Beatriz M. Meriño">
+<meta name="twitter:title" content="Página no encontrada">
 <meta name="twitter:image" content="https://beeamerino.github.io/assets/img/social-card.png">
 <meta name="twitter:image-height" content="630">
 <meta name="twitter:image-width" content="1200">
@@ -331,7 +331,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Página no encontrada</h1>
+<h1 class="title">404</h1>
 </div>
 
 
@@ -361,9 +361,40 @@ ul.task-list li input[type="checkbox"] {
           |  |
    ~~~~~~~|  |~~~~~~~~~~~~~  @  ~~
 </pre>
+<div class="nf-es">
 <p><strong>404.</strong> Aquí no crece nada: solo arena y sol. Recuerda usar protector solar y sombrero.</p>
-<p><em>Nothing grows here: only sand and sun. Remember your sunscreen and hat.</em></p>
-<p><a href="/./index.html" class="btn btn-primary">Volver al inicio</a></p>
+<p><a href="/." class="btn btn-primary">Volver al inicio</a> <a href="/./en/" class="btn btn-outline-primary">Read in English</a></p>
+</div>
+<div class="nf-en">
+<p><strong>404.</strong> Nothing grows here: only sand and sun. Remember your sunscreen and hat.</p>
+<p><a href="/./en/" class="btn btn-primary">Back to home</a> <a href="/." class="btn btn-outline-primary">Leer en español</a></p>
+</div>
+<script>
+/* GitHub Pages serves this same page for every missing address, so the language is chosen here:
+   English when the missing page was under /en/, when the visitor came from an English page,
+   or when the browser prefers English; Spanish otherwise. */
+document.addEventListener("DOMContentLoaded", function () {
+  var en = /^\/en\//.test(location.pathname) || /\/en\//.test(document.referrer) ||
+           (!/^es/i.test(navigator.language || "") && /^en/i.test(navigator.language || ""));
+  document.documentElement.lang = en ? "en" : "es";
+  document.querySelector(en ? ".nf-es" : ".nf-en").hidden = true;
+  var toggle = document.querySelector("a.lang-toggle");
+  if (toggle) toggle.setAttribute("href", en ? "/" : "/en/");
+  if (!en) return;
+  document.title = "Page not found – Beatriz M. Meriño";
+  /* the single 404 page has the Spanish menu: switch it to the English pages */
+  var map = {"Inicio": ["Home", "/en/"], "Investigación": ["Research", "/en/research.html"],
+             "Publicaciones": ["Publications", "/en/publications.html"], "Software": ["Software", "/en/software.html"],
+             "Galería": ["Gallery", "/en/gallery.html"]};
+  document.querySelectorAll(".navbar .nav-link").forEach(function (a) {
+    var t = a.querySelector(".menu-text"); var k = t && t.textContent.trim();
+    if (map[k]) { t.textContent = map[k][0]; a.setAttribute("href", map[k][1]); }
+  });
+  var brand = document.querySelector(".navbar-brand"); if (brand) brand.setAttribute("href", "/en/");
+  var right = document.querySelector(".nav-footer-right");
+  if (right) right.innerHTML = right.innerHTML.replace("Hecho con", "Built with").replace("alojado en", "hosted on");
+});
+</script>
 </div>
 
 
